@@ -1,0 +1,46 @@
+---
+title: "Guds Contract Test Overview"
+---
+
+import { Meta } from '@storybook/addon-docs';
+
+# Guds Contract Test Overview
+
+This document outlines the tests for the **Guds** contract, categorized by functionality.
+
+## Deployment
+
+1. **Should set the right owner**
+2. **Should set the right fee collector**
+
+## Minting
+
+- ✔ **Should allow owner to mint tokens**
+- **Should not allow non-owner to mint tokens**
+
+## Transfer Functionality
+
+- ✔ **Should transfer tokens with fee**
+- ✔ **Should allow free transfer for whitelisted addresses**
+
+## Blacklist Functionality
+
+- ✔ **Should blacklist and unblacklist addresses**
+- **Should not allow blacklisted address to transfer**
+
+## Admin Functions
+
+- **Should change fee collector**
+- **Should transfer ownership**
+- **Should not allow non-owner to change fee collector**
+
+---
+
+**Test Summary:**
+
+- **4 passing (750ms)**
+- **7 failing**
+
+---
+
+Feel free to adjust or extend the content as needed.
