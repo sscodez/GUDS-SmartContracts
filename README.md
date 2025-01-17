@@ -1,4 +1,4 @@
-```markdown
+
 # Sample Hardhat Project
 
 Welcome to the Sample Hardhat Project! This repository demonstrates the basics of using [Hardhat](https://hardhat.org/), including deploying a sample smart contract, running tests, and interacting with Hardhat Ignition modules.
